@@ -7,6 +7,7 @@
 input[type=radio] {
     display: none;
 }
+
 .menu {
     width: 100%;
 }
@@ -28,15 +29,18 @@ label {
     padding: 4em 0 1em;
     text-transform: uppercase;
 }
-    label[for=opcao-bolos] {
-        background-image: url(imagens/icone-bolos.svg);
-    }
-    label[for=opcao-bebidas] {
-        background-image: url(imagens/icone-bebidas.svg);
-    }
-    :checked + label {
-        background-color: #E4876D;
-    }
+
+label[for=opcao-bolos] {
+    background-image: url(imagens/icone-bolos.svg);
+}
+
+label[for=opcao-bebidas] {
+    background-image: url(imagens/icone-bebidas.svg);
+}
+
+:checked + label {
+    background-color: #E4876D;
+}
 
 /* posicionamento */
 label {
